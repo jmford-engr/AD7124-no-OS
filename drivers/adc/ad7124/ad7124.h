@@ -61,8 +61,10 @@
 /* Maximum number of channels */
 #define AD7124_MAX_CHANNELS	16
 /* Device IDs */
-#define AD7124_4_ID         0x14
-#define AD7124_8_ID	        0x16
+// Note that per AD this will change with each silicon revision!  Beware!
+
+#define AD7124_4_ID         0xFF
+#define AD7124_8_ID	        0x14
 
 /* AD7124 Register Map */
 #define AD7124_COMM_REG      0x00
